@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="70dp">
+
+
+        <EditText
+            android:id="@+id/et_login"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/edit_text_hight"
+            android:background="@drawable/bg_selected"
+            android:layout_marginLeft="@dimen/image_margin_right"
+            android:layout_marginRight="@dimen/image_margin_right"
+            android:layout_centerVertical="true"
+            android:inputType="textPassword"
+            android:paddingLeft="@dimen/image_margin_right"/>
+
+        <TextView
+            android:id="@+id/tv_login_name"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/text_size_16"
+            android:layout_marginLeft="@dimen/image_margin_left"
+            android:padding="@dimen/padding_4"
+            android:background="@color/white"
+            android:text="登录名"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/image_width"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/image_margin_right"
+            android:layout_alignParentRight="true">
+
+            <ImageView
+                android:id="@+id/image_error"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_launcher"
+                android:visibility="gone"/>
+
+            <ImageView
+                android:id="@+id/image_look"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/hide_pwd"
+                android:visibility="gone"/>
+
+            <ImageView
+                android:id="@+id/image_delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/edit_clear"
+                android:visibility="gone"/>
+        </LinearLayout>
+
+
+</RelativeLayout>

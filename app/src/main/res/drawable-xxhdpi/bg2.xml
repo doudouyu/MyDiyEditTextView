@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <!--圆角度数-->
+    <corners android:radius="@dimen/angle_5"/>
+    <!--边框颜色以及宽度  width指的是边框线的宽度 dashGap和dashWidth一起使用，边框线分割成虚线，点的长度以及间隔的长度-->
+    <stroke android:color="@color/orange" android:width="@dimen/dashwith" android:dashWidth="@dimen/dashwith"  />
+    <solid android:color="@color/white"/>
+</shape>

@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:first="http://schemas.android.com/apk/res/com.example.administrator.mydiyedittextview"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <com.example.administrator.mydiyedittextview.DiyEditText
+        android:id="@+id/llllllllll"
+        android:layout_marginTop="@dimen/margin_top"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="@dimen/image_margin_left"
+        android:layout_marginRight="@dimen/image_margin_left"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        first:hint="登录名" />
+
+    <com.example.administrator.mydiyedittextview.DiyEditText
+        android:id="@+id/llll"
+        android:layout_marginLeft="@dimen/image_margin_left"
+        android:layout_marginRight="@dimen/image_margin_left"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        first:hint="密码"/>
+
+    <com.example.administrator.mydiyedittextview.DiyEditText
+        android:id="@+id/lll"
+        android:layout_marginLeft="@dimen/image_margin_left"
+        android:layout_marginRight="@dimen/image_margin_left"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        first:hint="验证码"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"></LinearLayout>
+</LinearLayout>
